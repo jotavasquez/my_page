@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+    [class*="col"] {
+        max-width: 100%;
+        flex:none;
+    }
+    /*reajusta titulo*/
+    #title{
+        width: 90%;
+        margin:1%;
+    }
+    /*oculta menu*/
+    #menu{
+        display: hidden;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+    /*muestra boton menu*/
+    #btnMenu{
+        display: inline;
+    }
+    /*ajusta boton menu*/
+    #iconMenu {
+        display: inline;
+        width: 9%;
+        margin: 1%;
+    }
+
+    /*ajusta margenes secciones cardTitle*/
+    .topMargin{
+        margin-top: 10%;
+    }
+}

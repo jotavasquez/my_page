@@ -1,0 +1,189 @@
+/*
+Resetear el navegador
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*estilos generales*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 1.7em;
+    margin: 0.5em auto 0.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0.5em auto 0.5em;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.tCenter {
+    text-align: center;
+    padding: 1% 0;
+}
+
+/*barra superior*/
+.sideBar {
+    padding: 0.4%;
+}
+
+.dark_gray {
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+}
+
+.header {
+    flex-wrap: nowrap;
+}
+
+/*texto booststrap*/
+.titleH {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/*menu texto*/
+nav{
+    text-align: right; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-left: 2%;
+}
+
+nav a:hover {
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+}
+
+/*menu boton*/
+#btnMenu {
+    display: none;
+    color: rgb(182, 182, 182);
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 3px;
+    margin:0;
+    background-color: rgb(58, 58, 58);
+    width: 2em:
+}
+
+hr {
+    margin: 0.3em;
+    width: 2em;
+}
+
+/*imagen de inicio*/
+#picture {
+    width: 120em;
+    height: 20em;
+    /*border: 1px solid red;*/
+    background-image: url("../assets/img/mar1.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#picture img {
+    width: 100%;
+}
+
+/* boton call*/
+button {
+    background-color: rgb(0, 131, 253);
+    border: none;
+    border-radius: 0.3em;
+    color: #fff;
+    padding: 2.5% 4% 1.8%;
+    margin: 4%;
+}
+
+.btnCall {
+    font-size: 1.1em;
+    margin-left: 0;
+}
+
+.mail {
+    color: rgb(110, 219, 247);
+    margin-bottom: 20%;
+}
+
+a .mail {
+    text-decoration: none;
+}
+
+/*estilos para 3 recuadros inferiores con imagenes*/
+.cardTitle{
+    margin: 1em;
+    height: 9em ;
+}
+
+/*imagenes inferiores*/
+.gris {
+    height: 13em;
+    background-color: rgb(163, 163, 163);
+    overflow: hidden;
+}
+
+.img1 {
+    background-image: url("../assets/img/img2.png");
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+}
+
+.img2 {
+    background-image: url("../assets/img/img3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background-image: url("../assets/img/img4.jpg");
+    background-size: cover;
+    background-position-y:20%; 
+    background-size: 100%;
+}
+
+/* pie de fotos*/
+.card {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
+}
+
+/*recuadros botones*/
+.find {
+    border-top: 1px solid rgb(200, 200, 200);
+    background-color: rgb(246, 245, 245);
+}
+
+/*footer*/
+footer {
+    width: 100%;
+    background-color: rgb(112, 112, 112);
+    color: #fff;
+    margin-top: 3%;
+}
+
+.tCenterF {
+    text-align: center;
+    padding: 5% 0;
+}
