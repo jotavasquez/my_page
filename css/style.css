@@ -94,7 +94,7 @@ hr {
     width: 120em;
     height: 20em;
     /*border: 1px solid red;*/
-    background-image: url("../assets/img/mar1.png");
+    background-image: url("../assets/img/mar1.jpg");
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -143,7 +143,7 @@ a .mail {
 }
 
 .img1 {
-    background-image: url("../assets/img/img2.png");
+    background-image: url("../assets/img/img2.jpg");
     background-size: cover;
     background-position: center;
     background-size: 100%;
